@@ -1,0 +1,89 @@
+<div class="content-wrapper">
+  <div class="content-heading">
+
+    <div>Ordem de Serviço
+      <!-- <small data-localize="dashboard.WELCOME">Descrição!</small> -->
+    </div>
+  </div>
+  <div class="container">
+    <div class="card mb-3">
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-6 order-md-1">
+            <form class="needs-validation" novalidate>
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="data">Data</label>
+                  <input type="date" class="form-control" id="data" placeholder="" value="" required>
+                  <div class="invalid-feedback">
+                    Data requerida.
+                  </div>
+                </div>
+              </div>
+              <hr class="mb-4">
+              <div class="mb-3">
+                <label for="country">Contratada</label>
+                <select class="custom-select d-block w-100" id="country" required>
+                  <option value="">Selecione...</option>
+                  <option>RAZÃO: JACP SUPORTE, TECNOLOGIA E SERVIÇO ME</option>
+                </select>
+                <div class="invalid-feedback">
+                  Selecione uma contratada válida.
+                </div>
+              </div>
+              <hr class="mb-4">
+              <div class="mb-3">
+                <label for="country">Contratante</label>
+                <select class="custom-select d-block w-100" id="country" required>
+                  <option value="">Selecione...</option>
+                  <option>LOG-IN LOGISTICA</option>
+                </select>
+                <div class="invalid-feedback">
+                  Selecione uma contratante válida.
+                </div>
+              </div>
+              <hr class="mb-4">
+              <div class="row">
+                <div class="col-md-6 mb-3">
+                  <label for="data">Data do Serviço</label>
+                  <input type="date" class="form-control" id="data" placeholder="" value="" required>
+                  <div class="invalid-feedback">
+                    Data requerida.
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-5 mb-2">
+                  <label for="entrada">Entrada</label>
+                  <input type="time" class="form-control" id="entrada" placeholder="" required>
+                  <div class="invalid-feedback">
+                    Entrada Requerida.
+                  </div>
+                </div>
+                <div class="col-md-5 mb-2">
+                  <label for="saida">Saída</label>
+                  <input type="time" class="form-control" id="saida" placeholder="" required>
+                  <div class="invalid-feedback">
+                    Saí­da Requerida.
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-5 mb-2">
+                  <label for="translado">Translado</label>
+                  <input type="time" class="form-control" id="translado" placeholder="" required>
+                </div>
+                <div class="col-md-5 mb-2">
+                  <label for="outros">Outros</label>
+                  <input type="time" class="form-control" id="outros" placeholder="" required>
+                </div>
+              </div>
+              <hr class="mb-4">
+              <button class="btn btn-primary btn-lg" type="submit">Confirmar OS</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
